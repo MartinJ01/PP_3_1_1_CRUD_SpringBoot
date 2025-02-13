@@ -9,19 +9,19 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column
-    long id;
+    private long id;
 
     @Column
-    String name;
+    private String name;
 
     @Column
-    String lastName;
+    private String lastName;
 
     @Column
-    String email;
+    private String email;
 
     @Column
-    byte age;
+    private byte age;
 
     public User() {}
 
